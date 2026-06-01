@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Άσκηση Πληκτρολόγησης</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="letter-wrapper">
+    <span id="the-letter" class="letter">Α</span>  
+    <p class="letter-time">Χρόνος για το γράμμα: <strong id="the-counter"></strong></d>
+    <p class="game-time">Συνολικός Χρόνος: <strong id="game-timer"></strong></p>
+    <p class="score">Score: <span id="score"></span></d>
+  </div>
+
+  <div class="btn-wrapper">
+    <input class="visually-hidden" id="letter-input" autocomplete="off" />
+    <button class="start-btn" id="restart-btn">Έναρξη!</button>
+  </div>
+
+  <div class="controls">
+    <div class="color-input-wrapper bg-input-wrapper">
+      <input type="color" value="#40513B" id="bg-input" name="bg-input" class="color-input bg-input">
+      <label for="bg-input" class="color-input-label">&larr; Χρώμα Φόντου</label>
+    </div>
+    <div class="color-input-wrapper font-input-wrapper">
+      <input type="color" value="#f5fbe6" id="font-input" name="font-input" class="color-input font-input">
+      <label for="font-input" class="color-input-label">&larr; Χρώμα Γραμματοσειράς</label>
+    </div>
+    
+    <p class="check-ratio">
+      <a id="check-ratio-anchor" class="check-ratio-anchor" href="https://contrast-ratio.org/#%23f5fbe6-on-%2340513B" target="_blank">
+        Έλεγχος Αντίθεσης
+      </a>
+    </p>
+  </div>
+</div>
+
+<script src="./scripts.js"></script>
+    
+</body>
+</html>
