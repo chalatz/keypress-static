@@ -88,7 +88,7 @@ function startRound() {
       clearInterval(intervalId);
       intervalId = null;
 
-      letter_el.textContent = '⏱️ Done!';
+      letter_el.innerHTML = '<span style="font-size: 40px">⏱️ Τέλος Χρόνου!</span>';
       setUIEnded();
       clearInput();
     }

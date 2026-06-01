@@ -9,6 +9,7 @@ html {
 
 body {
   background-color: var(--main-bg-color); 
+  margin-bottom: 5rem;
 }
 
 .container {
@@ -39,6 +40,15 @@ body {
 
 .score {
   color: var(--letter-color);
+  font-size: 1.5rem;
+}
+
+.info {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: var(--letter-color);
+  text-align: center;
+  line-height: 1.5;
 }
 
 .btn-wrapper {
